@@ -1,0 +1,5 @@
+print("BMI値を求めます")
+height = int(input("身長(cm)"))
+weight = int(input("体重(kg)"))
+BMI = weight/(height**2)
+print("BMI値 = ",BMI)
